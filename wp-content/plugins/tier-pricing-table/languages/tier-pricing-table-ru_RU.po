@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tiered price table 1.1\n"
+"POT-Creation-Date: 2019-03-10 19:39+0200\n"
+"PO-Revision-Date: 2019-03-10 19:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/BackgroundProcessing/BackgroundTask.php:384
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Каждые %d минуты"
+
+#: src/BackgroundProcessing/Updater/Updates/VersionAbstract.php:59
+msgid ""
+"Tiered Pricing Table is updating database version. It may take a few minutes."
+msgstr ""
+"Tiered Pricing Table обновляет версию базы данных. Это может занять "
+"несколько минут."
+
+#: src/BackgroundProcessing/Updater/Updates/VersionAbstract.php:70
+msgid "Tiered Pricing Table has been completed updating database version."
+msgstr "Tired Price Table завершил обновления базы данных."
+
+#: src/Freemius.php:65 src/Freemius.php:66
+msgid "Freemius Account"
+msgstr "Аккаунт"
+
+#: src/Freemius.php:69 src/TierPricingTablePlugin.php:71
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: src/Frontend/CatalogPriceManager.php:99 src/Settings/Settings.php:194
+msgid "From"
+msgstr "От"
+
+#: src/Settings/Settings.php:51
+msgid "Tiered price table settings"
+msgstr "Настройки уровней цен"
+
+#: src/Settings/Settings.php:52
+msgid ""
+"This controls what and where tiered pricing table will be displayed at "
+"product page"
+msgstr "Это отвечает за вывод таблицы на странице товара"
+
+#: src/Settings/Settings.php:58
+msgid "Show tiered price table"
+msgstr "Показывать таблицу"
+
+#: src/Settings/Settings.php:62
+msgid "Display a table on frontend? Prices will change even if it is off"
+msgstr ""
+"Показывать таблицу на фронтенде?  Цены будут изменятся даже если таблица "
+"отключена"
+
+#: src/Settings/Settings.php:67
+msgid "Display"
+msgstr "Показывать"
+
+#: src/Settings/Settings.php:71
+msgid "Tooltip"
+msgstr "Тултип"
+
+#: src/Settings/Settings.php:72
+msgid "Table"
+msgstr "Таблица"
+
+#: src/Settings/Settings.php:74
+msgid "Type of displaying"
+msgstr "Тип отображения"
+
+#: src/Settings/Settings.php:78
+msgid "Tooltip icon color"
+msgstr "Цвет иконки тултипа"
+
+#: src/Settings/Settings.php:83
+msgid "Color of icon"
+msgstr "Цвет иконки"
+
+#: src/Settings/Settings.php:87
+msgid "Tooltip icon size (px)"
+msgstr "Размер иконки тултипа (px)"
+
+#: src/Settings/Settings.php:91
+msgid "Size of icon"
+msgstr "Размер иконки"
+
+#: src/Settings/Settings.php:95
+msgid "Table name"
+msgstr "Названия таблицы"
+
+#: src/Settings/Settings.php:99
+msgid "The name is being displayed above the table"
+msgstr "Названия выводится над таблицей"
+
+#: src/Settings/Settings.php:103
+msgid "Table position"
+msgstr "Позиция таблицы"
+
+#: src/Settings/Settings.php:107
+msgid "Above buy button"
+msgstr "Над кнопкой купить"
+
+#: src/Settings/Settings.php:108
+msgid "Below buy button"
+msgstr "Под кнопкой купить"
+
+#: src/Settings/Settings.php:109
+msgid "Above product title"
+msgstr "Над названием товара"
+
+#: src/Settings/Settings.php:110
+#, fuzzy
+#| msgid ""
+#| "After product summary\n"
+#| "                "
+msgid "After product summary"
+msgstr "После данных о товаре"
+
+#: src/Settings/Settings.php:112
+msgid "Where to display the table"
+msgstr "Где показывать таблицу"
+
+#: src/Settings/Settings.php:116
+msgid "Active price background color"
+msgstr "Цвет активной цены"
+
+#: src/Settings/Settings.php:121
+#, fuzzy
+#| msgid "Active tier price background color"
+msgid "Active tiered price background color"
+msgstr "Цвет активного рядка цены в таблице"
+
+#: src/Settings/Settings.php:125
+msgid "Quantity text"
+msgstr "Текст количества"
+
+#: src/Settings/Settings.php:128 src/Settings/Settings.php:249
+#: src/TierPricingTablePlugin.php:158 views/admin/add-price-rule-simple.php:41
+#: views/admin/add-price-rule-simple.php:58
+#: views/admin/add-price-rule-simple.php:80
+#: views/admin/add-price-rule-simple.php:97
+#: views/admin/add-price-rule-variation.php:48
+#: views/admin/add-price-rule-variation.php:67
+#: views/admin/add-price-rule-variation.php:91
+#: views/admin/add-price-rule-variation.php:109
+msgid "Quantity"
+msgstr "Количество"
+
+#: src/Settings/Settings.php:129
+msgid "Name of quantity column"
+msgstr "Название колонки с количеством"
+
+#: src/Settings/Settings.php:133
+msgid "Price text"
+msgstr "Текст цены"
+
+#: src/Settings/Settings.php:136 src/Settings/Settings.php:250
+#: src/TierPricingTablePlugin.php:159 views/admin/add-price-rule-simple.php:45
+#: views/admin/add-price-rule-simple.php:60
+#: views/admin/add-price-rule-variation.php:52
+#: views/admin/add-price-rule-variation.php:70
+msgid "Price"
+msgstr "Цена"
+
+#: src/Settings/Settings.php:137
+msgid "Name of price column"
+msgstr "Название колонки с ценой"
+
+#: src/Settings/Settings.php:141
+msgid "CSS class"
+msgstr "CSS класс"
+
+#: src/Settings/Settings.php:145
+msgid ""
+"You can add your own css styles for this class. The class will be added to "
+"the table"
+msgstr ""
+"Вы можете додать свои стили для этого класса. Клас будет додан к таблице"
+
+#: src/Settings/Settings.php:155
+msgid "Advanced settings"
+msgstr "Продвинутые настройки"
+
+#: src/Settings/Settings.php:161
+msgid "Show tiered price in cart as discount"
+msgstr "Показывать цену в корзине как скидку"
+
+#: src/Settings/Settings.php:163
+msgid "Example:"
+msgstr "Пример:"
+
+#: src/Settings/Settings.php:170
+msgid "Use Tiered Price at Catalog"
+msgstr "Показывать уровневою цену в каталоге"
+
+#: src/Settings/Settings.php:174
+msgid "Enable\\Disable showing tiered price at catalog"
+msgstr "Включить\\Отключить показывание уровневой цены в каталоге"
+
+#: src/Settings/Settings.php:179
+msgid "Display type as"
+msgstr "Тип отображения"
+
+#: src/Settings/Settings.php:183
+msgid "Range (from lowest to highest)"
+msgstr "Диапазон (от наименьшей к наибольшей)"
+
+#: src/Settings/Settings.php:184
+msgid "Lowest price"
+msgstr "Наименьшую цену"
+
+#: src/Settings/Settings.php:186
+msgid "How to display price at catalog"
+msgstr "Как показывать цену на каталоге"
+
+#: src/Settings/Settings.php:191
+msgid "Lowest price prefix"
+msgstr "Префикс к наименьшей цене"
+
+#: src/Settings/Settings.php:195
+msgid "Prefix before lowest product price at catalog. Example: <b>From 10$</b>"
+msgstr ""
+"Префикс перед наименьшей ценой продукта в каталоге. Пример  <b>От 10 р.</b>"
+
+#: src/Settings/Settings.php:200
+msgid "Show discount column for percentage table"
+msgstr "Показывать колонку с скидкой для процентной таблицы"
+
+#: src/Settings/Settings.php:207
+msgid "Discount text"
+msgstr "Текст колонки скидки"
+
+#: src/Settings/Settings.php:210 src/Settings/Settings.php:263
+msgid "Discount (%)"
+msgstr "Скидка (%)"
+
+#: src/Settings/Settings.php:211
+msgid "Name of discount column"
+msgstr "Название колонки с скидкой"
+
+#: src/Settings/Settings.php:233
+msgid "Tiered Pricing"
+msgstr "Уровневая цена"
+
+#: src/TierPricingTablePlugin.php:65
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/TierPricingTablePlugin.php:68
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/TierPricingTablePlugin.php:131
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Плагин %s требует, чтобы %s был активным!"
+
+#: views/admin/activation-message.php:9
+#, php-format
+msgid "Thanks for installing Tiered Price Table! You can customize it %s"
+msgstr ""
+"Спасибо за установку Tiered Price Table! Pricing Table! Вы можете настроить "
+"его %s"
+
+#: views/admin/activation-message.php:10
+msgid "here"
+msgstr "здесь"
+
+#: views/admin/add-price-rule-simple.php:19
+#: views/admin/add-price-rule-variation.php:25
+msgid "Tiered pricing type"
+msgstr "Тип уровневой цены"
+
+#: views/admin/add-price-rule-simple.php:22
+#: views/admin/add-price-rule-variation.php:29
+msgid "Fixed"
+msgstr "Фиксированый"
+
+#: views/admin/add-price-rule-simple.php:24
+#: views/admin/add-price-rule-variation.php:32
+msgid "Percentage (Only in premium version)"
+msgstr "Процентный (Только в премиум версии)"
+
+#: views/admin/add-price-rule-simple.php:26
+#: views/admin/add-price-rule-variation.php:34
+msgid "Percentage"
+msgstr "Процентный"
+
+#: views/admin/add-price-rule-simple.php:34
+#: views/admin/add-price-rule-simple.php:73
+#: views/admin/add-price-rule-variation.php:41
+#: views/admin/add-price-rule-variation.php:84
+msgid "Tiered price"
+msgstr "Ценовой уровень"
+
+#: views/admin/add-price-rule-simple.php:67
+#: views/admin/add-price-rule-simple.php:106
+#: views/admin/add-price-rule-variation.php:79
+#: views/admin/add-price-rule-variation.php:121
+msgid "New tier"
+msgstr "Новый уровень"
+
+#: views/admin/add-price-rule-simple.php:84
+#: views/admin/add-price-rule-simple.php:99
+#: views/admin/add-price-rule-variation.php:95
+#: views/admin/add-price-rule-variation.php:112
+msgid "Percent discount"
+msgstr "Процентная скидка"
+
+#: views/admin/premium-thanking-message.php:81
+msgid "Thanks! You are using premium version of the plugin!"
+msgstr "Спасибо! Вы используете премиум версию плагина!"
+
+#: views/admin/premium-thanking-message.php:85
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: views/admin/premium-thanking-message.php:86
+msgid "Contact us"
+msgstr "Свяжитесь с нам"
+
+#: views/admin/upgrade-message.php:114
+msgid ""
+"You are using the free version of plugin. Update to premium version to get "
+"all features."
+msgstr ""
+"Вы используете бесплатную версию плагина. Обновитесь до премиума для "
+"получения всех возможностей"
+
+#: views/admin/upgrade-message.php:118
+msgid "Upgrade to Premium!"
+msgstr "Оновиться до премиума!"
+
+#: views/admin/upgrade-message.php:127
+msgid "Only in premium version"
+msgstr "Только в премиум версии"
+
+#~ msgid "Display Range"
+#~ msgstr "Показывать диапазон"
+
+#~ msgid "Display Lowest"
+#~ msgstr "Показывать наименьшую "

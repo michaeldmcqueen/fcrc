@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tiered price table 1.1\n"
+"POT-Creation-Date: 2019-01-20 17:37+0200\n"
+"PO-Revision-Date: 2019-01-20 17:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Admin/Settings.php:29
+msgid "Tier pricing table settings"
+msgstr ""
+
+#: src/Admin/Settings.php:30
+msgid ""
+"This controls what and where quantity table prices are displayed at product "
+"page"
+msgstr ""
+
+#: src/Admin/Settings.php:36
+msgid "Show tier pricing table"
+msgstr ""
+
+#: src/Admin/Settings.php:40
+msgid "Display a table on frontend? Prices will change even if it is off"
+msgstr ""
+
+#: src/Admin/Settings.php:45
+msgid "Display"
+msgstr ""
+
+#: src/Admin/Settings.php:49
+msgid "Tooltip"
+msgstr ""
+
+#: src/Admin/Settings.php:50
+msgid "Table"
+msgstr ""
+
+#: src/Admin/Settings.php:52
+msgid "Type of displaying"
+msgstr ""
+
+#: src/Admin/Settings.php:57
+msgid "Table name"
+msgstr ""
+
+#: src/Admin/Settings.php:61
+msgid "The name is being displayed above the table"
+msgstr ""
+
+#: src/Admin/Settings.php:66
+msgid "Table position"
+msgstr ""
+
+#: src/Admin/Settings.php:70
+msgid "Above buy button"
+msgstr ""
+
+#: src/Admin/Settings.php:71
+msgid "Below buy button"
+msgstr ""
+
+#: src/Admin/Settings.php:72
+msgid "Above product title"
+msgstr ""
+
+#: src/Admin/Settings.php:73
+msgid "After product summary"
+msgstr ""
+
+#: src/Admin/Settings.php:76
+msgid "Where to display the table"
+msgstr ""
+
+#: src/Admin/Settings.php:81
+msgid "Tooltip icon color"
+msgstr ""
+
+#: src/Admin/Settings.php:86
+msgid "Color of icon"
+msgstr ""
+
+#: src/Admin/Settings.php:91
+msgid "Tooltip icon size (px)"
+msgstr ""
+
+#: src/Admin/Settings.php:95
+msgid "Size of icon"
+msgstr ""
+
+#: src/Admin/Settings.php:100
+msgid "Active price background color"
+msgstr ""
+
+#: src/Admin/Settings.php:105
+msgid "Active tier price background color"
+msgstr ""
+
+#: src/Admin/Settings.php:110
+msgid "Quantity text"
+msgstr ""
+
+#: src/Admin/Settings.php:113 src/Admin/Settings.php:150
+#: src/TierPricingTablePlugin.php:131 views/admin/add-price-rule-simple.php:10
+#: views/admin/add-price-rule-simple.php:23
+#: views/admin/add-price-rule-variation.php:11
+#: views/admin/add-price-rule-variation.php:24
+msgid "Quantity"
+msgstr ""
+
+#: src/Admin/Settings.php:114
+msgid "Name of quantity column"
+msgstr ""
+
+#: src/Admin/Settings.php:119
+msgid "Price text"
+msgstr ""
+
+#: src/Admin/Settings.php:122 src/Admin/Settings.php:151
+#: src/TierPricingTablePlugin.php:132 views/admin/add-price-rule-simple.php:11
+#: views/admin/add-price-rule-simple.php:24
+#: views/admin/add-price-rule-variation.php:12
+#: views/admin/add-price-rule-variation.php:25
+msgid "Price"
+msgstr ""
+
+#: src/Admin/Settings.php:123
+msgid "Name of price column"
+msgstr ""
+
+#: src/Admin/Settings.php:128
+msgid "CSS class"
+msgstr ""
+
+#: src/Admin/Settings.php:132
+msgid ""
+"You can add your own css styles for this class. The class will be added to "
+"the table"
+msgstr ""
+
+#: src/TierPricingTablePlugin.php:50
+msgid "Settings"
+msgstr ""
+
+#: src/TierPricingTablePlugin.php:107
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr ""
+
+#: views/admin/activation-message.php:7
+#, php-format
+msgid "Thanks for installing Tier Pricing Table! You can customize it %s"
+msgstr ""
+
+#: views/admin/activation-message.php:8
+msgid "here"
+msgstr ""
+
+#: views/admin/add-price-rule-simple.php:4
+#: views/admin/add-price-rule-variation.php:3
+msgid "Tier pricing"
+msgstr ""
+
+#: views/admin/add-price-rule-simple.php:30
+#: views/admin/add-price-rule-variation.php:32
+msgid "New tier"
+msgstr ""

@@ -1,0 +1,2 @@
+[16-Apr-2015 09:01:02 Europe/Minsk] PHP Fatal error:  Class 'getid3_lib' not found in /home/fcrc/public_html/wp/wp-includes/ID3/module.audio-video.asf.php on line 17
+[16-Apr-2015 09:55:25 Europe/Minsk] PHP Fatal error:  Class 'getid3_lib' not found in /home/fcrc/public_html/wp/wp-includes/ID3/module.audio-video.asf.php on line 17
